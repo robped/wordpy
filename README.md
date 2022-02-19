@@ -1,2 +1,1 @@
-# wordpy
-Yes Another Wordly Clone
+# wordpy - Yes Another Wordly Clone
