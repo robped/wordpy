@@ -28,15 +28,14 @@ def get_files(directory):
     
     return file_list
 
-
+#main funcionality -> create text file with all the words
 if __name__ == '__main__':
-    # file_list = get_files('db')
-    # for file_name in file_list:
-    #     words_list = get_words_of_len(file_name, 5)
-    #     for word in words_list:
-    #         append_to_file('all_the_words.txt', word + "\n")
+    
+    file_list = get_files('db')
+    for file_name in file_list:
+        words_list = get_words_of_len(file_name, 5)
+        for word in words_list:
+            append_to_file('all_the_words.txt', word + "\n")
 
-    words = list(set(get_words('all_the_words.txt')))
-    print(len(words))
-    print("cable" in words)
+   
    
