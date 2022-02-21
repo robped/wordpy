@@ -10,7 +10,7 @@ class Table():
                 line += f'{letter} '
             print(line)
         print("_______________")
-    
+
     def insert_word(self, word, row):
         word = word.upper()
         for i in range(len(self.table[row])):

@@ -13,6 +13,13 @@ def get_words_of_len(file_name, length):
     
     return words
 
+def get_random_word(file_name):
+    with open(file_name) as words_file:
+        words_list = get_words_of_len(file_name, 5)
+
+    return random.choice(words_list)
+
+
 def append_to_file(file_name, words):
     with open(file_name, 'a') as all_words:
         all_words.write(words)
