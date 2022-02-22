@@ -20,6 +20,8 @@ if __name__ == '__main__':
         table.insert_word(checked_word, current_row)
         current_row += 1
     table.show_table()
-    print("\nWell Done!\n")
-
+    if next_word == magic_word:
+        print("\nWell Done!\n")
+    else:
+        print("\nTry Again!")
 
