@@ -14,8 +14,3 @@ class Table():
 
     def insert_word(self, word, row):
         self.table[row] = word
-
-    # def insert_word(self, word, row):
-    #     word = word.upper()
-    #     for i in range(len(self.table[row])):
-    #         self.table[row][i] = word[i]

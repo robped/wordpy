@@ -6,7 +6,6 @@ import table
 import db_utility
 import engine
 
-
 if __name__ == '__main__':
     table = table.Table()
     current_row = 0
