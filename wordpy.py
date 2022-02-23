@@ -12,7 +12,7 @@ if __name__ == '__main__':
     current_row = 0
     magic_word = db_utility.get_random_word('all_the_words.txt').upper()
     next_word = ""
-    print(magic_word)
+    #print(magic_word)
     while current_row < 5 and next_word != magic_word:
         table.show_table()
         next_word = engine.ask_next_word()
@@ -23,5 +23,5 @@ if __name__ == '__main__':
     if next_word == magic_word:
         print("\nWell Done!\n")
     else:
-        print("\nTry Again!")
+        print("\nGame Over!\nThe word was "+ magic_word +", Try Again!")
 
