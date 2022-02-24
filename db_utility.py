@@ -19,7 +19,6 @@ def get_random_word(file_name):
 
     return random.choice(words_list)
 
-
 def append_to_file(file_name, words):
     with open(file_name, 'a') as all_words:
         all_words.write(words)
