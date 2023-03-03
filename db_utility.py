@@ -34,7 +34,7 @@ def get_files(directory):
     
     return file_list
 
-#main funcionality -> create text file with all the words
+# main funcionality -> create text file with all the words
 if __name__ == '__main__':
     
     file_list = get_files('db')
