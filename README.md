@@ -1,3 +1,5 @@
-# WORDPY - Terminal Wordle Clone
-Clone of the famous Wordle game written in python.
-To play run: $ wordle.py
+# WORDPY - worlde in your terminal
+Clone of the famous Wordle game. To play just run: 
+```
+python wordle.py
+```
