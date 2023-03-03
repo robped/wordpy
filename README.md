@@ -1,1 +1,1 @@
-# wordpy - Yes Another Wordle Clone
+# wordpy - Terminal Wordle Clone
