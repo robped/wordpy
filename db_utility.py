@@ -1,3 +1,7 @@
+# utility to create the list of words from several files 
+# the list of files are the files in the /db folder and the result text file
+# that contain all the vaild words of 5 chars is the all_the_words.txt file.
+
 import os
 import random
 
