@@ -1,6 +1,7 @@
 # WORDPY - worlde in your terminal
-Clone of the famous game. 
+Clone of the famous game.
 
+![Example](example.png)
 
 # How to Use
 To play just run: 
