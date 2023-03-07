@@ -1,13 +1,15 @@
 
 def ask_next_word(words_list):
     next_word = ""
-    is_not_valid = True
-    while next_word not in set(words_list):
+    words_set = set(words_list)
+    while True:
         next_word = input("insert a new word: ")
         if len(next_word) != 5:
             print("Insert a word with 5 letters!\n")
-        else:
+        elif next_word not in words_set:
             print("Insert a real word!\n")
+        else:
+            break
  
     return next_word.upper()
  
