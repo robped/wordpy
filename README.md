@@ -1,4 +1,4 @@
-# WORDPY - worlde in your terminal
+# WORDPY - wordle in your terminal
 Clone of the famous game.
 
 ![Example](example.png)
